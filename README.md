@@ -14,6 +14,17 @@ Lirkes project virtual machine.
 * `cd lirkes-vagrant`
 * `vagrant up`
 
+## Connect
+
+Once the build it completed, you can shell into the machine with `vagrant ssh` if you are in the `lirkes-vagrant` directory. If not in the directory, you can shell in the the machine with `ssh -p 2222 vagrant@localhost`.
+
+The default VM login details are:
+
+* Username: vagrant
+* Password: Vagrant
+
+Solr can be accessed at [http://localhost:8080/solr](http://localhost:8080/solr)
+
 ## Environment
 
 * Ubuntu 14.04
